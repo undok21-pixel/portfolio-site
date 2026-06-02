@@ -1,0 +1,1307 @@
+<!doctype html>
+<html lang="ja">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="映像ディレクター 安東健治のポートフォリオ自己PRサイト。テレビ番組、スポーツ中継、ドキュメンタリー、PR動画、講義動画、個人制作作品を紹介。">
+    <meta name="theme-color" content="#101113">
+    <meta name="author" content="安東健治">
+    <meta property="og:title" content="安東健治 | Video Director Portfolio">
+    <meta property="og:description" content="企画・演出から編集、MAまで。映像制作の現場を一貫して動かすディレクター、安東健治のポートフォリオ。">
+    <meta property="og:type" content="website">
+    <meta property="og:locale" content="ja_JP">
+    <meta property="og:image" content="assets/portfolio-movie-thumbnail-web.jpg">
+    <meta name="twitter:card" content="summary_large_image">
+    <meta name="twitter:title" content="安東健治 | Video Director Portfolio">
+    <meta name="twitter:description" content="番組制作、スポーツ中継、ドキュメンタリー番組、PR動画、講義動画まで。企画から仕上げまで映像を前へ進めるポートフォリオ。">
+    <meta name="twitter:image" content="assets/portfolio-movie-thumbnail-web.jpg">
+    <title>安東健治 | Video Director Portfolio</title>
+    <link rel="icon" href="assets/channel-avatar.jpg">
+    <link rel="preload" as="image" href="assets/top-jingi-pose-web.jpg">
+    <link rel="preload" as="image" href="assets/portfolio-movie-thumbnail-web.jpg">
+    <script type="application/ld+json">
+      {
+        "@context": "https://schema.org",
+        "@type": "Person",
+        "name": "安東健治",
+        "jobTitle": "Video Director / Editor",
+        "description": "番組制作、スポーツ中継、ドキュメンタリー番組、PR動画、講義動画に携わる映像ディレクター・編集者。",
+        "url": ".",
+        "sameAs": [
+          "https://www.youtube.com/@kjpolacine8431"
+        ],
+        "knowsAbout": [
+          "映像制作",
+          "テレビ番組制作",
+          "スポーツ中継",
+          "ドキュメンタリー番組",
+          "動画編集",
+          "MA仕上げ"
+        ]
+      }
+    </script>
+    <style>
+      :root {
+        color-scheme: dark;
+        --ink: #101113;
+        --ink-deep: #090a0b;
+        --panel: #17191b;
+        --panel-soft: #202326;
+        --paper: #f5f0e8;
+        --subtle: #c2b8aa;
+        --muted: #8e98a0;
+        --gold: #d5aa56;
+        --red: #d74a40;
+        --blue: #67a8bf;
+        --green: #6fad86;
+        --line: rgba(245, 240, 232, 0.14);
+        --shadow: 0 28px 80px rgba(0, 0, 0, 0.44);
+        --radius: 8px;
+        font-family: "Helvetica Neue", "Hiragino Sans", "Yu Gothic", "Meiryo", Arial, sans-serif;
+      }
+
+      * {
+        box-sizing: border-box;
+      }
+
+      html {
+        scroll-behavior: smooth;
+      }
+
+      body {
+        margin: 0;
+        background: var(--ink-deep);
+        color: var(--paper);
+        line-height: 1.72;
+        letter-spacing: 0;
+      }
+
+      body::before {
+        content: "";
+        position: fixed;
+        inset: 0;
+        z-index: -2;
+        background:
+          linear-gradient(120deg, rgba(16, 17, 19, 0.94), rgba(13, 17, 18, 0.78)),
+          url("assets/top-jingi-pose-web.jpg") center 36% / cover no-repeat;
+      }
+
+      body::after {
+        content: "";
+        position: fixed;
+        inset: 0;
+        z-index: -1;
+        pointer-events: none;
+        background:
+          linear-gradient(rgba(245, 240, 232, 0.04) 1px, transparent 1px),
+          linear-gradient(90deg, rgba(245, 240, 232, 0.03) 1px, transparent 1px);
+        background-size: 72px 72px;
+        mask-image: linear-gradient(180deg, rgba(0, 0, 0, 0.55), transparent 72%);
+      }
+
+      a {
+        color: inherit;
+        text-decoration: none;
+      }
+
+      a:focus-visible,
+      button:focus-visible {
+        outline: 2px solid var(--gold);
+        outline-offset: 4px;
+      }
+
+      img,
+      iframe {
+        display: block;
+        max-width: 100%;
+      }
+
+      .site-shell {
+        min-height: 100vh;
+        overflow: hidden;
+      }
+
+      .skip-link {
+        position: fixed;
+        top: 12px;
+        left: 12px;
+        z-index: 100;
+        transform: translateY(-140%);
+        border-radius: 999px;
+        padding: 8px 14px;
+        background: var(--gold);
+        color: var(--ink);
+        font-weight: 900;
+        transition: transform 160ms ease;
+      }
+
+      .skip-link:focus {
+        transform: translateY(0);
+      }
+
+      .topbar {
+        position: sticky;
+        top: 0;
+        z-index: 20;
+        border-bottom: 1px solid var(--line);
+        background: rgba(9, 10, 11, 0.78);
+        backdrop-filter: blur(18px);
+      }
+
+      .nav {
+        width: min(1180px, calc(100% - 32px));
+        min-height: 68px;
+        margin: 0 auto;
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        gap: 18px;
+      }
+
+      .brand-mark {
+        display: flex;
+        align-items: center;
+        gap: 12px;
+        min-width: 0;
+        font-weight: 900;
+      }
+
+      .brand-mark img {
+        width: 42px;
+        height: 42px;
+        border: 1px solid rgba(213, 170, 86, 0.46);
+        border-radius: 50%;
+        background: #111;
+      }
+
+      .brand-mark span {
+        white-space: nowrap;
+      }
+
+      .brand-mark small {
+        display: block;
+        margin-top: -4px;
+        color: var(--muted);
+        font-size: 0.68rem;
+        font-weight: 800;
+      }
+
+      .nav-links {
+        display: flex;
+        align-items: center;
+        gap: 18px;
+        color: var(--subtle);
+        font-size: 0.92rem;
+        font-weight: 700;
+      }
+
+      .nav-links a {
+        transition: color 160ms ease;
+      }
+
+      .nav-links a:hover {
+        color: var(--paper);
+      }
+
+      .hero {
+        width: min(1180px, calc(100% - 32px));
+        min-height: calc(100vh - 68px);
+        margin: 0 auto;
+        padding: 56px 0 50px;
+        display: grid;
+        grid-template-columns: minmax(0, 1.02fr) minmax(360px, 0.88fr);
+        gap: 42px;
+        align-items: center;
+      }
+
+      .eyebrow {
+        margin: 0 0 14px;
+        color: var(--gold);
+        font-size: 0.78rem;
+        font-weight: 900;
+        text-transform: uppercase;
+      }
+
+      h1,
+      h2,
+      h3,
+      p {
+        margin-top: 0;
+      }
+
+      h1 {
+        max-width: 720px;
+        margin-bottom: 20px;
+        font-size: clamp(2.8rem, 4vw, 4rem);
+        line-height: 1.04;
+        font-weight: 900;
+        text-wrap: balance;
+        overflow-wrap: anywhere;
+      }
+
+      h1 .line {
+        display: block;
+      }
+
+      .lead-line {
+        max-width: 650px;
+        margin-bottom: 14px;
+        color: #f3d28b;
+        font-size: clamp(1.12rem, 2vw, 1.55rem);
+        font-weight: 900;
+        line-height: 1.5;
+        overflow-wrap: anywhere;
+      }
+
+      .lead-line span {
+        display: block;
+      }
+
+      .hero-copy {
+        max-width: 640px;
+        margin-bottom: 26px;
+        color: #dfd5c8;
+        font-size: clamp(1.02rem, 1.7vw, 1.16rem);
+        overflow-wrap: anywhere;
+      }
+
+      .hero-copy span {
+        display: block;
+      }
+
+      .actions {
+        display: flex;
+        flex-wrap: wrap;
+        align-items: center;
+        gap: 12px;
+        margin-bottom: 24px;
+      }
+
+      .button {
+        min-height: 46px;
+        display: inline-flex;
+        align-items: center;
+        justify-content: center;
+        gap: 10px;
+        border: 1px solid transparent;
+        border-radius: 999px;
+        padding: 10px 18px;
+        font-weight: 900;
+        transition: transform 160ms ease, background 160ms ease, border-color 160ms ease;
+      }
+
+      .button:hover {
+        transform: translateY(-2px);
+      }
+
+      .button:active,
+      .youtube-card:active,
+      .work-card:active {
+        transform: translateY(0);
+      }
+
+      .button-primary {
+        background: var(--red);
+        color: white;
+        box-shadow: 0 18px 40px rgba(215, 74, 64, 0.28);
+      }
+
+      .button-secondary {
+        border-color: var(--line);
+        background: rgba(245, 240, 232, 0.07);
+      }
+
+      .tag-row {
+        display: flex;
+        flex-wrap: wrap;
+        gap: 8px;
+        max-width: 680px;
+      }
+
+      .tag {
+        min-height: 34px;
+        display: inline-flex;
+        align-items: center;
+        border: 1px solid rgba(245, 240, 232, 0.14);
+        border-radius: 999px;
+        padding: 6px 12px;
+        background: rgba(23, 25, 27, 0.72);
+        color: #ddd3c6;
+        font-size: 0.84rem;
+        font-weight: 850;
+      }
+
+      .achievement-grid {
+        display: grid;
+        grid-template-columns: repeat(2, minmax(0, 1fr));
+        gap: 10px;
+        margin-top: 24px;
+      }
+
+      .achievement-card {
+        min-height: 118px;
+        padding: 16px;
+        border: 1px solid rgba(245, 240, 232, 0.14);
+        border-radius: var(--radius);
+        background: rgba(16, 18, 20, 0.76);
+      }
+
+      .achievement-card span {
+        display: block;
+        margin-bottom: 8px;
+        color: var(--blue);
+        font-size: 0.72rem;
+        font-weight: 900;
+        text-transform: uppercase;
+      }
+
+      .achievement-card strong {
+        display: block;
+        color: var(--paper);
+        font-size: 1.02rem;
+        line-height: 1.4;
+      }
+
+      .hero-panel {
+        display: grid;
+        gap: 14px;
+      }
+
+      .feature-video {
+        overflow: hidden;
+        border: 1px solid rgba(213, 170, 86, 0.36);
+        border-radius: var(--radius);
+        background: linear-gradient(145deg, rgba(32, 35, 38, 0.95), rgba(14, 15, 16, 0.98));
+        box-shadow: var(--shadow);
+      }
+
+      .feature-video img {
+        width: 100%;
+        aspect-ratio: 16 / 9;
+        object-fit: cover;
+        object-position: center;
+      }
+
+      .video-caption {
+        padding: 18px;
+        border-top: 1px solid var(--line);
+        background: rgba(14, 15, 16, 0.92);
+      }
+
+      .video-caption strong {
+        display: block;
+        margin-bottom: 5px;
+      }
+
+      .video-caption p {
+        margin-bottom: 14px;
+        color: var(--subtle);
+        font-size: 0.92rem;
+      }
+
+      .metric-strip {
+        display: grid;
+        grid-template-columns: 1fr;
+        gap: 10px;
+      }
+
+      .metric {
+        min-height: 108px;
+        padding: 16px;
+        border: 1px solid var(--line);
+        border-radius: var(--radius);
+        background: rgba(23, 25, 27, 0.86);
+      }
+
+      .metric strong {
+        display: block;
+        color: var(--gold);
+        font-size: clamp(1.5rem, 3vw, 2.15rem);
+        line-height: 1.05;
+      }
+
+      .metric span {
+        color: var(--subtle);
+        font-size: 0.82rem;
+        font-weight: 750;
+      }
+
+      .metric-single {
+        min-height: 78px;
+        display: grid;
+        place-items: center;
+        text-align: center;
+      }
+
+      .metric-single strong {
+        font-size: clamp(1.65rem, 3vw, 2.25rem);
+      }
+
+      main {
+        background: linear-gradient(180deg, rgba(9, 10, 11, 0.12), #0d0f10 8%, #111314 100%);
+      }
+
+      section {
+        width: min(1180px, calc(100% - 32px));
+        margin: 0 auto;
+        padding: 82px 0;
+      }
+
+      .section-head {
+        max-width: 720px;
+        margin-bottom: 32px;
+      }
+
+      .section-head h2 {
+        margin-bottom: 12px;
+        font-size: clamp(2rem, 4vw, 3.35rem);
+        line-height: 1.1;
+      }
+
+      .section-head p {
+        max-width: 640px;
+        color: var(--subtle);
+        font-size: 1.02rem;
+      }
+
+      .section-head .line,
+      .youtube-intro-body .line {
+        display: block;
+      }
+
+      .profile-head {
+        max-width: 980px;
+      }
+
+      .profile-grid,
+      .career-grid,
+      .works-grid {
+        display: grid;
+        gap: 18px;
+      }
+
+      .broadcast-visual {
+        position: relative;
+        overflow: hidden;
+        margin-bottom: 18px;
+        border: 1px solid rgba(213, 170, 86, 0.24);
+        border-radius: var(--radius);
+        background: #090a0b;
+        box-shadow: 0 22px 60px rgba(0, 0, 0, 0.32);
+      }
+
+      .broadcast-visual img {
+        width: 100%;
+        aspect-ratio: 16 / 5;
+        object-fit: cover;
+        object-position: center;
+        opacity: 0.9;
+      }
+
+      .broadcast-visual::after {
+        content: "";
+        position: absolute;
+        inset: 0;
+        pointer-events: none;
+        background: linear-gradient(90deg, rgba(9, 10, 11, 0.2), transparent 36%, rgba(9, 10, 11, 0.26));
+      }
+
+      .profile-grid {
+        grid-template-columns: minmax(0, 1.04fr) minmax(300px, 0.72fr);
+        align-items: stretch;
+      }
+
+      .statement,
+      .skill-panel,
+      .career-item,
+      .work-card,
+      .channel-card {
+        border: 1px solid var(--line);
+        border-radius: var(--radius);
+        background: linear-gradient(145deg, rgba(32, 35, 38, 0.95), rgba(20, 22, 24, 0.96));
+      }
+
+      .statement {
+        padding: clamp(24px, 4vw, 42px);
+      }
+
+      .statement p {
+        color: #ddd3c5;
+      }
+
+      .statement p:last-child {
+        margin-bottom: 0;
+      }
+
+      .skill-panel {
+        padding: 22px;
+      }
+
+      .skill-panel h3 {
+        margin-bottom: 14px;
+        font-size: 1rem;
+      }
+
+      .skill-list {
+        display: grid;
+        gap: 10px;
+        margin: 0;
+        padding: 0;
+        list-style: none;
+      }
+
+      .skill-list li {
+        display: grid;
+        grid-template-columns: 108px 1fr;
+        gap: 12px;
+        padding-bottom: 10px;
+        border-bottom: 1px solid var(--line);
+        color: var(--subtle);
+        font-size: 0.94rem;
+      }
+
+      .skill-list li:last-child {
+        padding-bottom: 0;
+        border-bottom: 0;
+      }
+
+      .skill-list strong {
+        color: var(--paper);
+      }
+
+      .career-grid {
+        position: relative;
+        grid-template-columns: 1fr;
+        gap: 16px;
+      }
+
+      .career-item {
+        position: relative;
+        min-height: 0;
+        display: grid;
+        grid-template-columns: 160px minmax(0, 1fr);
+        gap: 22px;
+        padding: 22px;
+      }
+
+      .career-item time {
+        display: block;
+        margin-bottom: 12px;
+        color: var(--blue);
+        font-size: 0.82rem;
+        font-weight: 900;
+      }
+
+      .career-item h3 {
+        margin-bottom: 10px;
+        font-size: 1.28rem;
+      }
+
+      .career-item p {
+        color: var(--subtle);
+        font-size: 0.93rem;
+      }
+
+      .career-item ul {
+        margin: 0;
+        padding-left: 1.1rem;
+        color: #ded6ca;
+        font-size: 0.9rem;
+      }
+
+      .career-label {
+        display: grid;
+        align-content: start;
+        gap: 8px;
+      }
+
+      .career-label strong {
+        color: var(--gold);
+        font-size: 2.1rem;
+        line-height: 1;
+      }
+
+      .career-body {
+        min-width: 0;
+      }
+
+      .works-grid {
+        grid-template-columns: repeat(4, minmax(0, 1fr));
+      }
+
+      .work-card {
+        overflow: hidden;
+        transition: transform 160ms ease, border-color 160ms ease;
+      }
+
+      .work-card:hover {
+        transform: translateY(-4px);
+        border-color: rgba(213, 170, 86, 0.5);
+      }
+
+      .work-card img {
+        width: 100%;
+        aspect-ratio: 4 / 3;
+        object-fit: cover;
+        background: #151515;
+      }
+
+      .work-card.tall img {
+        object-position: center 18%;
+      }
+
+      .work-body {
+        padding: 16px;
+      }
+
+      .work-body h3 {
+        margin-bottom: 8px;
+        font-size: 1rem;
+        line-height: 1.45;
+      }
+
+      .work-body p {
+        margin-bottom: 0;
+        color: var(--subtle);
+        font-size: 0.86rem;
+      }
+
+      .channel-card {
+        display: grid;
+        grid-template-columns: minmax(220px, 0.34fr) minmax(0, 1fr);
+        gap: 0;
+        overflow: hidden;
+      }
+
+      .channel-card img {
+        width: 100%;
+        height: 100%;
+        min-height: 320px;
+        object-fit: cover;
+      }
+
+      .channel-body {
+        padding: clamp(24px, 4vw, 42px);
+      }
+
+      .channel-body h3 {
+        margin-bottom: 12px;
+        font-size: clamp(1.55rem, 3vw, 2.5rem);
+        line-height: 1.15;
+      }
+
+      .channel-body p {
+        color: var(--subtle);
+      }
+
+      .personal-points {
+        display: grid;
+        grid-template-columns: repeat(3, minmax(0, 1fr));
+        gap: 10px;
+        margin: 22px 0;
+      }
+
+      .personal-points span {
+        min-height: 72px;
+        display: flex;
+        align-items: center;
+        border: 1px solid var(--line);
+        border-radius: var(--radius);
+        padding: 12px;
+        color: #dfd7ca;
+        font-size: 0.88rem;
+        font-weight: 800;
+      }
+
+      .personal-card {
+        display: grid;
+        grid-template-columns: minmax(240px, 0.42fr) minmax(0, 1fr);
+        gap: 0;
+        overflow: hidden;
+        border: 1px solid var(--line);
+        border-radius: var(--radius);
+        background: linear-gradient(145deg, rgba(32, 35, 38, 0.95), rgba(20, 22, 24, 0.96));
+      }
+
+      .personal-card img {
+        width: 100%;
+        height: 100%;
+        min-height: 300px;
+        object-fit: cover;
+      }
+
+      .personal-body {
+        padding: clamp(24px, 4vw, 42px);
+      }
+
+      .personal-body h3 {
+        margin-bottom: 12px;
+        font-size: clamp(1.55rem, 3vw, 2.5rem);
+        line-height: 1.15;
+      }
+
+      .personal-body p {
+        color: var(--subtle);
+      }
+
+      .youtube-showcase {
+        display: grid;
+        gap: 18px;
+      }
+
+      .youtube-intro {
+        display: grid;
+        grid-template-columns: minmax(220px, 0.34fr) minmax(0, 1fr);
+        gap: 0;
+        overflow: hidden;
+        border: 1px solid var(--line);
+        border-radius: var(--radius);
+        background: linear-gradient(145deg, rgba(32, 35, 38, 0.95), rgba(20, 22, 24, 0.96));
+      }
+
+      .youtube-intro img {
+        width: 100%;
+        height: 100%;
+        min-height: 300px;
+        object-fit: cover;
+      }
+
+      .youtube-intro-body {
+        padding: clamp(24px, 4vw, 42px);
+      }
+
+      .youtube-intro-body h3 {
+        margin-bottom: 12px;
+        font-size: clamp(1.55rem, 3vw, 2.5rem);
+        line-height: 1.2;
+      }
+
+      .youtube-intro-body p {
+        max-width: 720px;
+        color: var(--subtle);
+      }
+
+      .youtube-grid {
+        display: grid;
+        grid-template-columns: repeat(4, minmax(0, 1fr));
+        gap: 18px;
+      }
+
+      .youtube-card {
+        overflow: hidden;
+        border: 1px solid var(--line);
+        border-radius: var(--radius);
+        background: linear-gradient(145deg, rgba(32, 35, 38, 0.94), rgba(20, 22, 24, 0.96));
+        color: inherit;
+        text-decoration: none;
+        transition: transform 180ms ease, border-color 180ms ease, background 180ms ease;
+      }
+
+      .youtube-card:hover {
+        transform: translateY(-3px);
+        border-color: rgba(213, 170, 86, 0.48);
+        background: linear-gradient(145deg, rgba(38, 41, 43, 0.98), rgba(21, 23, 25, 0.98));
+      }
+
+      .youtube-card:focus-visible,
+      .button:focus-visible {
+        box-shadow: 0 0 0 4px rgba(213, 170, 86, 0.18);
+      }
+
+      .short-thumb {
+        position: relative;
+        overflow: hidden;
+        background: #080808;
+      }
+
+      .short-thumb img {
+        width: 100%;
+        aspect-ratio: 9 / 16;
+        object-fit: cover;
+        transition: transform 240ms ease;
+      }
+
+      .youtube-card:hover .short-thumb img {
+        transform: scale(1.04);
+      }
+
+      .short-badge,
+      .play-mark {
+        position: absolute;
+        z-index: 1;
+      }
+
+      .short-badge {
+        top: 12px;
+        left: 12px;
+        border: 1px solid rgba(245, 240, 232, 0.18);
+        border-radius: 999px;
+        padding: 5px 9px;
+        background: rgba(9, 10, 11, 0.72);
+        color: var(--paper);
+        font-size: 0.72rem;
+        font-weight: 900;
+        letter-spacing: 0;
+      }
+
+      .play-mark {
+        right: 12px;
+        bottom: 12px;
+        width: 40px;
+        height: 40px;
+        display: grid;
+        place-items: center;
+        border: 1px solid rgba(245, 240, 232, 0.28);
+        border-radius: 999px;
+        background: rgba(213, 170, 86, 0.92);
+        color: #111314;
+        font-size: 1rem;
+        font-weight: 900;
+        line-height: 1;
+      }
+
+      .youtube-card-body {
+        padding: 16px;
+      }
+
+      .youtube-card-body h3 {
+        margin-bottom: 8px;
+        font-size: 0.98rem;
+        line-height: 1.5;
+      }
+
+      .youtube-card-body p {
+        margin-bottom: 0;
+        color: var(--subtle);
+        font-size: 0.86rem;
+      }
+
+      .contact-band {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        gap: 22px;
+        border-top: 1px solid var(--line);
+        padding-top: 32px;
+      }
+
+      .contact-band h2 {
+        margin-bottom: 8px;
+        font-size: clamp(1.8rem, 3vw, 2.6rem);
+      }
+
+      .contact-band p {
+        margin-bottom: 0;
+        color: var(--subtle);
+      }
+
+      footer {
+        border-top: 1px solid var(--line);
+        background: #090a0b;
+        color: var(--muted);
+      }
+
+      .footer-inner {
+        width: min(1180px, calc(100% - 32px));
+        min-height: 92px;
+        margin: 0 auto;
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        gap: 20px;
+        font-size: 0.9rem;
+      }
+
+      @media (max-width: 980px) {
+        .nav-links {
+          display: none;
+        }
+
+        .hero,
+        .profile-grid,
+        .channel-card,
+        .personal-card,
+        .youtube-intro {
+          grid-template-columns: 1fr;
+        }
+
+        .hero {
+          min-height: auto;
+          padding-top: 44px;
+        }
+
+        .works-grid {
+          grid-template-columns: repeat(2, minmax(0, 1fr));
+        }
+
+        .youtube-grid {
+          grid-template-columns: repeat(2, minmax(0, 1fr));
+          gap: 12px;
+        }
+
+        .channel-card img,
+        .personal-card img,
+        .youtube-intro img {
+          min-height: 260px;
+          aspect-ratio: 16 / 9;
+        }
+      }
+
+      @media (max-width: 640px) {
+        .nav {
+          min-height: 62px;
+        }
+
+        .brand-mark img {
+          width: 38px;
+          height: 38px;
+        }
+
+        h1 {
+          font-size: clamp(2.1rem, 9.8vw, 2.45rem);
+          line-height: 1.05;
+        }
+
+        h1 .line {
+          display: block;
+        }
+
+        section {
+          padding: 64px 0;
+        }
+
+        .section-head .line,
+        .youtube-intro-body .line {
+          display: inline;
+        }
+
+        .lead-line {
+          font-size: 1.04rem;
+          line-height: 1.55;
+        }
+
+        .hero-copy {
+          font-size: 0.98rem;
+        }
+
+        .hero,
+        section {
+          width: min(100% - 24px, 1180px);
+        }
+
+        .metric-strip,
+        .achievement-grid,
+        .works-grid,
+        .personal-points,
+        .youtube-grid {
+          grid-template-columns: 1fr;
+        }
+
+        .broadcast-visual img {
+          aspect-ratio: 16 / 10;
+        }
+
+        .short-thumb img {
+          aspect-ratio: 16 / 10;
+        }
+
+        .career-item {
+          grid-template-columns: 1fr;
+          gap: 10px;
+        }
+
+        .skill-list li {
+          grid-template-columns: 1fr;
+          gap: 2px;
+        }
+
+        .contact-band,
+        .footer-inner {
+          align-items: flex-start;
+          flex-direction: column;
+        }
+      }
+    </style>
+  </head>
+  <body>
+    <a class="skip-link" href="#profile">本文へ移動</a>
+    <div class="site-shell">
+      <header class="topbar">
+        <nav class="nav" aria-label="Primary navigation">
+          <a class="brand-mark" href="#top" aria-label="安東健治 ポートフォリオ トップ">
+            <img src="assets/channel-avatar.jpg" alt="安東健治 ポートフォリオアイコン" width="42" height="42" decoding="async">
+            <span>安東健治<small>Video Director / Editor</small></span>
+          </a>
+          <div class="nav-links">
+            <a href="#profile">Profile</a>
+            <a href="#career">Career</a>
+            <a href="#works">Works</a>
+            <a href="#personal">YouTube</a>
+          </div>
+        </nav>
+      </header>
+
+      <section class="hero" id="top">
+        <div class="hero-content">
+          <p class="eyebrow">Kenji Ando Portfolio</p>
+          <h1><span class="line">企画から仕上げ、</span><span class="line">映像を前へ進める。</span></h1>
+          <p class="lead-line"><span>私は、番組制作からPR・講義動画まで経験し、</span><span>企画・編集・MAまで一貫して担当します。</span></p>
+          <p class="hero-copy"><span>東京と京都の制作現場で培った</span><span>進行力と編集力を活かし、</span><span>伝えるべき情報を整理して形にします。</span></p>
+          <div class="tag-row" aria-label="Main strengths">
+            <span class="tag">企画構成</span>
+            <span class="tag">演出</span>
+            <span class="tag">ロケ・収録進行</span>
+            <span class="tag">Final Cut Pro</span>
+            <span class="tag">MA仕上げ</span>
+            <span class="tag">講義動画量産</span>
+          </div>
+          <div class="achievement-grid" aria-label="Career highlights">
+            <article class="achievement-card">
+              <span>Sports / Broadcast</span>
+              <strong>WOWOW NBA中継・関連番組 チーフディレクター</strong>
+            </article>
+            <article class="achievement-card">
+              <span>Press / Event</span>
+              <strong>東京ディズニーリゾート 広報用プレスキット・イベント映像</strong>
+            </article>
+            <article class="achievement-card">
+              <span>Documentary / PR</span>
+              <strong>ドキュメンタリー番組、観光PR、採用動画制作</strong>
+            </article>
+            <article class="achievement-card">
+              <span>Education / Workflow</span>
+              <strong>年間数百本規模の講義動画を制作・編集</strong>
+            </article>
+          </div>
+        </div>
+
+        <aside class="hero-panel" aria-label="Featured portfolio">
+          <div class="feature-video">
+            <img src="assets/portfolio-movie-thumbnail-web.jpg" alt="安東健治 ポートフォリオムービーのサムネイル" fetchpriority="high" decoding="async">
+            <div class="video-caption">
+              <strong>Portfolio Movie</strong>
+              <p>私の映像表現と編集の感覚をまとめたポートフォリオ映像です。</p>
+              <a class="button button-primary" href="https://youtu.be/YR6wjMkvERA" target="_blank" rel="noopener">ポートフォリオ映像を見る</a>
+            </div>
+          </div>
+          <div class="metric-strip">
+            <div class="metric metric-single"><strong>映像制作24+年</strong></div>
+          </div>
+        </aside>
+      </section>
+
+      <main>
+        <section id="profile">
+          <div class="section-head profile-head">
+            <p class="eyebrow">Profile / Resume Summary</p>
+            <h2><span class="line">幅広い現場で、</span><span class="line">最後まで任せられる制作力があります。</span></h2>
+            <p>番組制作からWeb動画、教育動画まで、目的に合わせて制作全体を組み立てます。</p>
+          </div>
+          <div class="broadcast-visual" aria-label="スポーツ中継と映像制作をイメージしたビジュアル">
+            <img src="assets/broadcast-production-illustration-web.jpg" alt="スポーツ中継、編集タイムライン、音声波形を組み合わせた映像制作イラスト" loading="lazy" decoding="async">
+          </div>
+          <div class="profile-grid">
+            <div class="statement">
+              <p>私は、テレビ番組制作から企業PV、採用動画、講義動画の大量制作まで幅広く経験してきました。東京の制作会社では約18年間、番組制作の企画・演出・収録進行・編集を担当し、WOWOWのNBA中継および関連番組ではチーフディレクターとして制作スタッフ、技術、出演者との連携を担いました。</p>
+              <p>京都の制作会社では、ドキュメンタリー番組、観光PR、採用動画などを担当しました。テロップ、BGM、SE、ナレーション収録、MA仕上げまで一人で完結する現場を経験し、制作全体を見渡す力を磨きました。</p>
+              <p>現在は講義動画、研修動画、広報動画に携わっています。強みは、企画段階の構成力、撮影現場を前に進める調整力、そして編集・MAで最終的な見え方を整える完遂力です。</p>
+            </div>
+            <div class="skill-panel">
+              <h3>Core Skills</h3>
+              <ul class="skill-list">
+                <li><strong>Direction</strong><span>企画構成、演出、出演者打ち合わせ、収録進行、ロケ取材進行</span></li>
+                <li><strong>Editing</strong><span>Final Cut Pro 約15年。番組、PV、講義動画の編集実務</span></li>
+                <li><strong>Finishing</strong><span>テロップ、BGM、SE、ナレーション収録、MA仕上げ</span></li>
+                <li><strong>Design</strong><span>Photoshop 約6年。映像素材や告知用ビジュアルの作成</span></li>
+                <li><strong>Office</strong><span>Word / Excelで企画書、構成、打ち合わせ資料の作成</span></li>
+              </ul>
+            </div>
+          </div>
+        </section>
+
+        <section id="career">
+          <div class="section-head">
+            <p class="eyebrow">Resume Timeline</p>
+            <h2><span class="line">現場経験を、</span><span class="line">制作力に変えてきました。</span></h2>
+            <p>3社での役割と、強みとして伝えたい実績をまとめています。</p>
+          </div>
+          <div class="career-grid">
+            <article class="career-item">
+              <div class="career-label">
+                <strong>01</strong>
+                <time>1999.10 - 2018.02</time>
+              </div>
+              <div class="career-body">
+                <h3>株式会社エム・ティ・プランニング</h3>
+                <p>テレビ番組、VP、CM、映像ソフトの企画制作会社で、ディレクターとして番組制作全般を担当。</p>
+                <ul>
+                  <li>WOWOWのNBA中継および関連番組でチーフディレクターを担当</li>
+                  <li>制作スタッフ、技術、出演者とのコミュニケーションを取りながら番組制作を推進</li>
+                  <li>東京ディズニーリゾート広報用プレスキット、イベント映像、映画DVD特典映像、MLB中継、TBSスポーツ中継関連を担当</li>
+                </ul>
+              </div>
+            </article>
+            <article class="career-item">
+              <div class="career-label">
+                <strong>02</strong>
+                <time>2018.03 - 2023.08</time>
+              </div>
+              <div class="career-body">
+                <h3>株式会社海空</h3>
+                <p>TV、CM、PV、採用動画、イベント関連映像を制作。ドキュメンタリー番組、PR、採用動画を担当。</p>
+                <ul>
+                  <li>サンテレビ、BS12、eo光、自治体、大学、観光関連の映像制作を担当</li>
+                  <li>淡路人形浄瑠璃、清川あさみ、うみぞら映画祭、京都観光PRなどのドキュメンタリー・PRを制作</li>
+                  <li>テロップ、BGM、SE、ナレーション収録、MA作業まで一貫して対応</li>
+                </ul>
+              </div>
+            </article>
+            <article class="career-item">
+              <div class="career-label">
+                <strong>03</strong>
+                <time>2024.01 - Present</time>
+              </div>
+              <div class="career-body">
+                <h3>株式会社グッドフィーリング</h3>
+                <p>講義動画、研修動画、広報動画を制作。教育・研修領域で、安定した量産体制と編集品質を両立。</p>
+                <ul>
+                  <li>駿台予備校講義動画、システム研修動画、広報動画を担当</li>
+                  <li>講師打ち合わせ、構成、収録、撮影、映像編集、MA仕上げまで対応</li>
+                  <li>年間数百本規模の動画制作を通じ、効率的かつ柔軟な制作フローを実践</li>
+                </ul>
+              </div>
+            </article>
+          </div>
+        </section>
+
+        <section id="works">
+          <div class="section-head">
+            <p class="eyebrow">Personal Works</p>
+            <h2><span class="line">流行を学び、</span><span class="line">表現の幅を広げています。</span></h2>
+            <p>ショート動画のテンポ、AI画像・動画生成、サムネイル設計を、自分の制作で試しています。</p>
+          </div>
+          <div class="works-grid">
+            <article class="work-card tall">
+              <img src="assets/top-earphones-ribbon-web.jpg" alt="個人制作ショートビジュアル" loading="lazy" decoding="async">
+              <div class="work-body">
+                <h3>Short-form Visual</h3>
+                <p>AI生成や編集の組み合わせで、短い尺に印象を残す表現を探っています。</p>
+              </div>
+            </article>
+            <article class="work-card">
+              <img src="assets/figure-luffy-shanks.jpg" alt="Figure short visual" loading="lazy" decoding="async">
+              <div class="work-body">
+                <h3>Figure Shorts</h3>
+                <p>構図、テロップ、音で静物に物語性を持たせるショート動画。</p>
+              </div>
+            </article>
+            <article class="work-card">
+              <img src="assets/penny-awaji.jpg" alt="Penny daily video visual" loading="lazy" decoding="async">
+              <div class="work-body">
+                <h3>Everyday Documentary</h3>
+                <p>日常の小さな場面を、短尺でも伝わるリズムで切り取っています。</p>
+              </div>
+            </article>
+            <article class="work-card">
+              <img src="assets/short-tora-latest.jpg" alt="Tora-san short visual" loading="lazy" decoding="async">
+              <div class="work-body">
+                <h3>Quote / Culture</h3>
+                <p>言葉、情緒、生成ビジュアルを組み合わせた短尺表現の実験です。</p>
+              </div>
+            </article>
+          </div>
+        </section>
+
+        <section id="personal">
+          <div class="section-head">
+            <p class="eyebrow">KJ POLACINE / Personal YouTube Works</p>
+            <h2><span class="line">短尺表現を、</span><span class="line">実験しています。</span></h2>
+            <p>流行りのショート動画やAI画像・動画生成を学ぶために、個人制作を検証の場として活用しています。</p>
+          </div>
+          <div class="youtube-showcase">
+            <article class="youtube-intro">
+              <img src="assets/pocilane-sign-web.jpg" alt="KJ POLACINE チャンネルビジュアル" loading="lazy" decoding="async">
+              <div class="youtube-intro-body">
+                <p class="eyebrow">KJ POLACINE</p>
+                <h3><span class="line">新しい見せ方を、</span><span class="line">自分の制作で試しています。</span></h3>
+                <p>個人制作では、ショート動画の流行、AI画像生成、AI動画生成を学びながら、短い尺で伝える編集を検証しています。サムネイル、テロップ、音、テンポの設計を試し、仕事の映像制作にも返せる引き出しを増やしています。</p>
+                <div class="personal-points">
+                  <span>ショート動画のテンポ設計</span>
+                  <span>AI画像・動画生成の試行</span>
+                  <span>サムネイル、テロップ、音の検証</span>
+                </div>
+                <div class="actions">
+                  <a class="button button-secondary" href="https://www.youtube.com/@kjpolacine8431" target="_blank" rel="noopener">チャンネルを見る</a>
+                </div>
+              </div>
+            </article>
+            <div class="youtube-grid" aria-label="KJ POLACINE Shorts links">
+              <a class="youtube-card" href="https://www.youtube.com/shorts/pbyaYHY985E" target="_blank" rel="noopener">
+                <div class="short-thumb">
+                  <img src="assets/short-tora-pbya.jpg" alt="寅さんのことば ショート動画サムネイル" loading="lazy" decoding="async">
+                  <span class="short-badge">Shorts</span>
+                  <span class="play-mark" aria-hidden="true">▶</span>
+                </div>
+                <div class="youtube-card-body">
+                  <h3>寅さんのことば</h3>
+                  <p>言葉と生成ビジュアルを短尺で届けるShortsです。</p>
+                </div>
+              </a>
+              <a class="youtube-card" href="https://www.youtube.com/shorts/w2WuEA29e1A" target="_blank" rel="noopener">
+                <div class="short-thumb">
+                  <img src="assets/short-tora-w2wu.jpg" alt="寅さんのことば ショート動画サムネイル" loading="lazy" decoding="async">
+                  <span class="short-badge">Shorts</span>
+                  <span class="play-mark" aria-hidden="true">▶</span>
+                </div>
+                <div class="youtube-card-body">
+                  <h3>笑って、泣いて、また歩く</h3>
+                  <p>AI生成の質感とテロップの間合いを試しています。</p>
+                </div>
+              </a>
+              <a class="youtube-card" href="https://www.youtube.com/shorts/FuKdixIGxbs" target="_blank" rel="noopener">
+                <div class="short-thumb">
+                  <img src="assets/short-tora-fukd.jpg" alt="寅さんのことば ショート動画サムネイル" loading="lazy" decoding="async">
+                  <span class="short-badge">Shorts</span>
+                  <span class="play-mark" aria-hidden="true">▶</span>
+                </div>
+                <div class="youtube-card-body">
+                  <h3>心に残る“またな”</h3>
+                  <p>短い余韻を残すための音と画の置き方を検証しています。</p>
+                </div>
+              </a>
+              <a class="youtube-card" href="https://www.youtube.com/shorts/Yov2SwF-R-Q" target="_blank" rel="noopener">
+                <div class="short-thumb">
+                  <img src="assets/short-tora-yov2.jpg" alt="寅さんのことば ショート動画サムネイル" loading="lazy" decoding="async">
+                  <span class="short-badge">Shorts</span>
+                  <span class="play-mark" aria-hidden="true">▶</span>
+                </div>
+                <div class="youtube-card-body">
+                  <h3>寅さんのことば Shorts</h3>
+                  <p>縦型動画の見え方とサムネイル訴求を学ぶための制作です。</p>
+                </div>
+              </a>
+            </div>
+          </div>
+        </section>
+
+        <section id="contact">
+          <div class="contact-band">
+            <div>
+              <p class="eyebrow">Message</p>
+              <h2>最後まで、映像を前へ進めます。</h2>
+              <p>番組、PR、教育動画、Web動画など、目的に合わせた構成と現場対応で貢献します。</p>
+            </div>
+            <a class="button button-primary" href="#top">トップへ戻る</a>
+          </div>
+        </section>
+      </main>
+
+      <footer>
+        <div class="footer-inner">
+          <span>Kenji Ando Portfolio</span>
+          <span>Built with resume and portfolio materials</span>
+        </div>
+      </footer>
+    </div>
+  </body>
+</html>
