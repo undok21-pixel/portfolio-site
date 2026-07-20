@@ -976,6 +976,24 @@
           min-height: 260px;
           aspect-ratio: 16 / 9;
         }
+
+        .youtube-intro {
+          display: flex;
+          flex-direction: column;
+        }
+
+        .youtube-intro img.pocilane-showcase-logo {
+          height: auto;
+          min-height: 0;
+          aspect-ratio: 4 / 3;
+          flex: 0 0 auto;
+        }
+
+        .youtube-intro-body {
+          position: relative;
+          z-index: 1;
+          background: #ffffff;
+        }
       }
 
       @media (max-width: 640px) {
@@ -1004,6 +1022,10 @@
         .section-head .line,
         .youtube-intro-body .line {
           display: inline;
+        }
+
+        .youtube-intro-body {
+          padding: 22px 18px 24px;
         }
 
         .lead-line {
